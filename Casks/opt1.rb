@@ -1,14 +1,14 @@
 cask "opt1" do
-  version "1.0.4"
-  sha256 "4444b902e1029c56febcb76ddf7f429ad3a721003e3abfdf1b575eb4c35600db"
+  version "1.0.5"
+  sha256 "691050baef49c6603f3de44ec638b41d0a2e970af461eabbd6d0c6bd9270ee94"
 
-  url "https://github.com/JAHealey1/Opt1-Releases/releases/download/v#{version}/Opt1-#{version}.dmg"
+  url "https://github.com/JAHealey1/Opt1/releases/download/v#{version}/Opt1-#{version}.dmg"
   name "Opt1"
   desc "Free macOS helper for RuneScape clue scrolls"
-  homepage "https://github.com/JAHealey1/Opt1-Releases"
+  homepage "https://github.com/JAHealey1/Opt1"
 
   livecheck do
-    url "https://github.com/JAHealey1/Opt1-Releases/releases/latest"
+    url "https://github.com/JAHealey1/Opt1/releases/latest"
     strategy :github_latest
   end
 
