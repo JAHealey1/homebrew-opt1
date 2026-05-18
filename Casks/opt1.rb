@@ -1,6 +1,6 @@
 cask "opt1" do
-  version "1.0.5"
-  sha256 "691050baef49c6603f3de44ec638b41d0a2e970af461eabbd6d0c6bd9270ee94"
+  version "1.0.6"
+  sha256 "d7382b7518b2c84e141c1b3d124656f1f5db0326ec2448636a37e14e1a299b98"
 
   url "https://github.com/JAHealey1/Opt1/releases/download/v#{version}/Opt1-#{version}.dmg"
   name "Opt1"
